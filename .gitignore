@@ -1,0 +1,10 @@
+*.pyc
+.env
+.env.*
+*.pt
+*.bin
+*.safetensors
+outputs/
+logs/
+cache/
+data/*.zip

@@ -1,0 +1,27 @@
+# Core deep learning
+# torch>=2.3
+# torchvision
+accelerate>=0.32.0
+
+# Transformers & VLM
+transformers>=4.57.0
+safetensors
+sentencepiece
+
+# TRL for GRPO/PPO
+trl>=0.12.0
+
+# Parameter-efficient tuning
+peft
+bitsandbytes
+
+# Dataset & utilities
+datasets
+pillow
+opencv-python
+numpy
+scipy
+
+# Optional but recommended
+huggingface_hub
+tqdm
