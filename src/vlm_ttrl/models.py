@@ -9,8 +9,8 @@ from PIL import Image
 from transformers import AutoModelForImageTextToText, AutoProcessor
 
 # You can switch models here
-DEFAULT_VLM_MODEL_ID = "Qwen/Qwen3-VL-8B-Instruct"
-# DEFAULT_VLM_MODEL_ID = "Qwen/Qwen2.5-VL-3B-Instruct"
+# DEFAULT_VLM_MODEL_ID = "Qwen/Qwen3-VL-8B-Instruct"
+DEFAULT_VLM_MODEL_ID = "Qwen/Qwen2.5-VL-3B-Instruct"
 
 
 class Qwen3VLWrapper:

@@ -25,7 +25,7 @@ def main():
     print(f"[Main] Model wrapper initialized, time elapsed {t1 - t0:.2f} seconds")
 
     # Test image path
-    img_path = "/home/ubuntu/disks/400g/project/VLM-VeriAug-TTRL/data/images/test_img2.jpg"
+    img_path = "./data/images/test_img2.jpg"
     print("[Main] Test image path:", img_path)
 
     # prompt = "Describe this image in one short sentence."

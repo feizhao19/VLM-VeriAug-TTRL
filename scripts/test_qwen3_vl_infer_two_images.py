@@ -54,8 +54,8 @@ def main():
     print(f"[Main] Model wrapper initialized, time elapsed {t1 - t0:.2f} seconds")
 
     # Input images
-    img1_path = "/home/ubuntu/disks/400g/project/VLM-VeriAug-TTRL/data/images/test_img1.jpg"
-    img2_path = "/home/ubuntu/disks/400g/project/VLM-VeriAug-TTRL/data/images/test_img2.jpg"
+    img1_path = "./data/images/test_img1.jpg"
+    img2_path = "./data/images/test_img2.jpg"
 
     print("[Main] Image 1 path:", img1_path)
     print("[Main] Image 2 path:", img2_path)
